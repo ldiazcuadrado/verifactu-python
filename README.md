@@ -147,8 +147,9 @@ valide contra el XSD o construya la URL del QR. El servidor no envía nada a la 
 claude mcp add verifactu -- uvx --from "verifactu-sdk[mcp]" verifactu-sdk-mcp
 ```
 
+En Claude Desktop o Cursor, dentro de `mcpServers`:
+
 ```json
-// Claude Desktop / Cursor (mcpServers)
 { "verifactu": { "command": "uvx", "args": ["--from", "verifactu-sdk[mcp]", "verifactu-sdk-mcp"] } }
 ```
 
